@@ -1,8 +1,17 @@
 # Substruct
 
 An easy to deploy foundation for automating the provisioning 
-of baremetal infrastructure, with a user-friendly web interface 
-for managing OS configurations and tracking hardware inventory.
+of baremetal infrastructure via network booting, with a user-friendly web 
+interface for managing OS configurations and tracking hardware inventory.
+
+## Components 
+
+The project consists of five modular compontents:
+- **Server** for network booting x86_64 and aarch64 hardware.
+- **Recon OS** for gathering information about the hardware of a system.
+- **Database** for storing hardware and deployment information.
+- **API** for managing the information in the database.
+- **Web UI** for interacting with the API in a user-friendly way.
 
 ## Goals
 
