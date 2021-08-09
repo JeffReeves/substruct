@@ -1,4 +1,4 @@
-# Substruct
+# substruct
 
 An easy to deploy foundation for automating the provisioning 
 of baremetal infrastructure via network booting, with a user-friendly web 
