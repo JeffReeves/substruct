@@ -6,7 +6,7 @@
 REPO_STUB='substruct'
 
 # create the repo directory on bridges
-ssh git@bridges "mkdir /git/substruct.git && cd /git/substruct.git && git config --global init.defaultBranch main && git init --bare && sed -i 's/master/main/' /git/rpi4-custom-os.git/HEAD"
+ssh git@bridges "mkdir /git/substruct.git && cd /git/substruct.git && git config --global init.defaultBranch main && git init --bare && sed -i 's/master/main/' /git/substruct.git/HEAD"
 
 # add bridges to git remote list
 git remote add bridges git@bridges:/git/substruct.git
